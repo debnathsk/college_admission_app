@@ -26,7 +26,7 @@ Before running the application, ensure you have the following installed:
 - Python 3.7 or higher
 - pip (Python package manager)
 
-## Setup:
+## Setup Terminal:
 ### Create a Virtual Environment:
 python -m venv venv
 
