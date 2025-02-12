@@ -1,0 +1,32 @@
+2025-02-11 23:40:05,500 - INFO - Received request: {'name': 'John Doe', 'age': 20, 'gender': 'Male', 'marks': {'Physics': 85, 'Chemistry': 80, 'Mathematics': 90}, 'qualification_exam': 'JEE', 'desired_course': 'Computer Science Engineering'}
+2025-02-11 23:40:05,507 - ERROR - Database error: Database error: no such table: students
+2025-02-11 23:40:38,127 - INFO - Received request: {'name': 'John Doe', 'age': 20, 'gender': 'Male', 'marks': {'Physics': 85, 'Chemistry': 80, 'Mathematics': 90}, 'qualification_exam': 'JEE', 'desired_course': 'Computer Science Engineering'}
+2025-02-11 23:40:38,128 - ERROR - Database error: Database error: no such table: students
+2025-02-11 23:43:27,147 - INFO - Received request: {'name': 'John Doe', 'age': 20, 'gender': 'Male', 'marks': {'Physics': 85, 'Chemistry': 80, 'Mathematics': 90}, 'qualification_exam': 'JEE', 'desired_course': 'Computer Science Engineering'}
+2025-02-11 23:43:27,148 - ERROR - Database error: Database error: no such table: students
+2025-02-11 23:45:01,871 - INFO - Received request: {'name': 'John Doe', 'age': 20, 'gender': 'Male', 'marks': {'Physics': 85, 'Chemistry': 80, 'Mathematics': 90}, 'qualification_exam': 'JEE', 'desired_course': 'Computer Science Engineering'}
+2025-02-11 23:45:01,873 - ERROR - Database error: Database error: no such table: students
+2025-02-11 23:54:51,040 - INFO - Received request: {'name': 'John Doe', 'age': 20, 'gender': 'Male', 'marks': {'Physics': 85, 'Chemistry': 80, 'Mathematics': 90}, 'qualification_exam': 'JEE', 'desired_course': 'Computer Science Engineering'}
+2025-02-11 23:54:51,042 - ERROR - Database error: Database error: no such table: students
+2025-02-11 23:54:53,661 - INFO - Received request: {'name': 'John Doe', 'age': 20, 'gender': 'Male', 'marks': {'Physics': 85, 'Chemistry': 80, 'Mathematics': 90}, 'qualification_exam': 'JEE', 'desired_course': 'Computer Science Engineering'}
+2025-02-11 23:54:53,662 - ERROR - Database error: Database error: no such table: students
+2025-02-11 23:56:37,022 - INFO - Received request: {'name': 'John Doe', 'age': 20, 'gender': 'Male', 'marks': {'Physics': 85, 'Chemistry': 80, 'Mathematics': 90}, 'qualification_exam': 'JEE', 'desired_course': 'Computer Science Engineering'}
+2025-02-11 23:56:37,025 - ERROR - Database error: Database error: no such table: students
+2025-02-12 00:01:36,772 - INFO - Received request: {'name': 'John Doe', 'age': 20, 'gender': 'Male', 'marks': {'Physics': 85, 'Chemistry': 80, 'Mathematics': 90}, 'qualification_exam': 'JEE', 'desired_course': 'Computer Science Engineering'}
+2025-02-12 00:01:36,779 - INFO - Eligibility status: {'eligible': True, 'message': 'Congratulations! You are eligible for Computer Science Engineering.'}
+2025-02-12 00:31:09,863 - INFO - Received request: {'name': 'John Doe', 'age': 20, 'gender': 'Male', 'marks': {'Physics': 85, 'Chemistry': 35, 'Mathematics': 90}, 'qualification_exam': 'JEE', 'desired_course': 'Computer Science Engineering'}
+2025-02-12 00:31:09,864 - ERROR - Validation error: Average marks (70.00%) do not meet the cutoff (75%).
+2025-02-12 00:49:05,886 - INFO - Received request: {'name': 'John Doe', 'age': 20, 'gender': 'Male', 'marks': {'Physics': 85, 'Chemistry': 89, 'Mathematics': 90}, 'qualification_exam': 'JEE', 'desired_course': 'Computer Science Engineering'}
+2025-02-12 00:49:05,898 - INFO - Eligibility status: {'eligible': True, 'message': 'Congratulations! You are eligible for Computer Science Engineering.'}
+2025-02-12 00:49:22,357 - INFO - Received request: {'name': 'John Doe', 'age': 20, 'gender': 'Male', 'marks': {'Physics': 85, 'Chemistry': 89, 'Mathematics': 90}, 'qualification_exam': 'JEE', 'desired_course': 'Computer Science Engineering'}
+2025-02-12 00:49:22,364 - INFO - Eligibility status: {'eligible': True, 'message': 'Congratulations! You are eligible for Computer Science Engineering.'}
+2025-02-12 00:49:24,585 - INFO - Received request: {'name': 'John Doe', 'age': 20, 'gender': 'Male', 'marks': {'Physics': 85, 'Chemistry': 89, 'Mathematics': 90}, 'qualification_exam': 'JEE', 'desired_course': 'Computer Science Engineering'}
+2025-02-12 00:49:24,592 - INFO - Eligibility status: {'eligible': True, 'message': 'Congratulations! You are eligible for Computer Science Engineering.'}
+2025-02-12 00:49:27,500 - INFO - Received request: {'name': 'John Doe', 'age': 20, 'gender': 'Male', 'marks': {'Physics': 85, 'Chemistry': 89, 'Mathematics': 90}, 'qualification_exam': 'JEE', 'desired_course': 'Computer Science Engineering'}
+2025-02-12 00:49:27,507 - INFO - Eligibility status: {'eligible': True, 'message': 'Congratulations! You are eligible for Computer Science Engineering.'}
+2025-02-12 00:49:29,685 - INFO - Received request: {'name': 'John Doe', 'age': 20, 'gender': 'Male', 'marks': {'Physics': 85, 'Chemistry': 89, 'Mathematics': 90}, 'qualification_exam': 'JEE', 'desired_course': 'Computer Science Engineering'}
+2025-02-12 00:49:29,692 - INFO - Eligibility status: {'eligible': True, 'message': 'Congratulations! You are eligible for Computer Science Engineering.'}
+2025-02-12 00:49:31,061 - INFO - Received request: {'name': 'John Doe', 'age': 20, 'gender': 'Male', 'marks': {'Physics': 85, 'Chemistry': 89, 'Mathematics': 90}, 'qualification_exam': 'JEE', 'desired_course': 'Computer Science Engineering'}
+2025-02-12 00:49:31,067 - INFO - Eligibility status: {'eligible': True, 'message': 'Congratulations! You are eligible for Computer Science Engineering.'}
+2025-02-12 00:49:32,207 - INFO - Received request: {'name': 'John Doe', 'age': 20, 'gender': 'Male', 'marks': {'Physics': 85, 'Chemistry': 89, 'Mathematics': 90}, 'qualification_exam': 'JEE', 'desired_course': 'Computer Science Engineering'}
+2025-02-12 00:49:32,214 - INFO - Eligibility status: {'eligible': True, 'message': 'Congratulations! You are eligible for Computer Science Engineering.'}
