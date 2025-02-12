@@ -24,7 +24,7 @@ def create_table(conn: sqlite3.Connection) -> None:
                                             name text NOT NULL,
                                             age integer NOT NULL,
                                             gender text NOT NULL,
-                                            marks text NOT NULL,
+                                            marks text NOT NULL,  # Store 6 subjects as JSON
                                             qualification_exam text NOT NULL,
                                             desired_course text NOT NULL,
                                             eligibility_status text NOT NULL,

@@ -1,4 +1,4 @@
-from typing import Dict
+from typing import Dict, List
 from pydantic import BaseModel
 
 class StudentRequest(BaseModel):
@@ -12,4 +12,13 @@ class StudentRequest(BaseModel):
 class EligibilityResponse(BaseModel):
     eligible: bool
     message: str
-    
+
+class AdmittedStudentResponse(BaseModel):
+    student_id: str
+    name: str
+    age: int
+    gender: str
+    marks: Dict[str, int]
+    qualification_exam: str
+    desired_course: str
+    timestamp: str
